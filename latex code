@@ -1,0 +1,139 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontawesome}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=[rgb]{0.04,0,0.5},
+    pdfborderstyle={/S/U/W 0.5}
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+    \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-----------------------------------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{\item\small{\textbf{#1}{: #2 \vspace{-2pt}}}}
+\newcommand{\resumeItemPaper}[1]{\item\small{{#1}}}
+\newcommand{\resumeSubheading}[4]{\vspace{-1pt}\item
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{#1} & #2 \\
+\textit{\small#3} & \textit{\small #4} \\
+\end{tabular*}\vspace{-5pt}}
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+\renewcommand{\labelitemii}{$\circ$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------------------------------
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{\href{}{ \Large Alex Johnson}} & \faEnvelope\ : \href{mailto:alex.johnson@email.com}{alex.johnson@email.com} \\
+\href{https://www.linkedin.com/in/alexjohnson/}{\faLinkedin\ : linkedin.com/in/alexjohnson} & \faWhatsapp\ : +94 71 123 4567 \\
+\faHome\ : Colombo, Sri Lanka & \today \\
+\end{tabular*}
+
+%--------SUMMARY------------
+\section{Professional Summary}
+\resumeSubHeadingListStart
+\item{Analytical and results-driven HR Executive with experience in HR operations, payroll administration, recruitment coordination, and employee engagement. Skilled in managing the entire employee lifecycle, maintaining HRIS records, and ensuring compliance with policies and labor regulations. Proficient in MS Office 365, Google Workspace, and HRIS systems, with strong communication, attention to detail, and organizational skills.}
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+\section{Work Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{ABC Consulting Group}{Colombo, Sri Lanka}
+{Junior HR Executive}{01/2024 – Present}
+\resumeItemListStart
+\item Managed payroll for 20+ clients ensuring EPF/ETF accuracy and timely compliance.
+\item Conducted recruitment, screening, and onboarding for multiple client accounts.
+\item Maintained HR documentation and ensured adherence to labor laws and policies.
+\resumeItemListEnd
+
+\resumeSubheading
+{Global Bank PLC}{Colombo, Sri Lanka}
+{Banking Assistant}{06/2023 – 12/2023}
+\resumeItemListStart
+\item Processed over 50 merchant accounts monthly and supported customer onboarding.
+\item Assisted in reporting, data entry, and compliance documentation.
+\resumeItemListEnd
+
+\resumeSubheading
+{NextGen Events (NGO)}{Colombo, Sri Lanka}
+{Coordinator}{05/2020 – 06/2020}
+\resumeItemListStart
+\item Coordinated youth engagement programs and managed event logistics.
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{University of Colombo}{Colombo, SL}
+{BBA (Hons) in Human Resource Management}{2025 - Ongoing}
+\resumeSubheading
+{ESOFT Metro Campus}{Galle, SL}
+{Diploma in HR Management}{2021}
+\resumeSubHeadingListEnd
+
+%-----------RESEARCH & PUBLICATIONS-----------
+\section{Research and Publications}
+\resumeSubHeadingListStart
+\resumeItemPaper{\textbf{“Digital HR Systems and Employee Productivity”}, Journal of Business & Technology, 2024.}
+\resumeItemPaper{\textbf{“Optimizing Payroll Automation in SMEs”}, HRM Innovation Conference, 2023.}
+\resumeSubHeadingListEnd
+
+%-----------SKILLS-----------------
+\section{Skills}
+\resumeSubHeadingListStart
+\item{\textbf{Core HR Skills}{: Payroll Processing, Recruitment, HRIS, Compliance, Employee Relations}}
+\item{\textbf{Software}{: Google Workspace, MS Office 365, SmartSuite, QuickBooks}}
+\item{\textbf{Languages}{: English, Sinhala}}
+\resumeSubHeadingListEnd
+
+%-----------REFERENCES-----------------
+\section{References}
+\resumeSubHeadingListStart
+\resumeSubheading
+{John Doe}{\faEnvelope\ : \href{mailto:johndoe@email.com}{johndoe@email.com}}
+{HR Manager – ABC Consulting Group}{\faPhone\ : +94 77 123 4567}
+\resumeSubHeadingListEnd
+
+\end{document}
